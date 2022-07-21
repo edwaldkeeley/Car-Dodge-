@@ -1,0 +1,47 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Dodge!</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="score">Press UP</div>
+
+    <div id="controls">
+      <div id="buttons">
+        <button id="accelerate">
+          <svg width="30" height="30" viewBox="0 0 10 10">
+            <g transform="rotate(0, 5,5)">
+              <path d="M5,4 L7,6 L3,6 L5,4" />
+            </g>
+          </svg>
+        </button>
+        <button id="decelerate">
+          <svg width="30" height="30" viewBox="0 0 10 10">
+            <g transform="rotate(180, 5,5)">
+              <path d="M5,4 L7,6 L3,6 L5,4" />
+            </g>
+          </svg>
+        </button>
+      </div>
+      <div id="instructions">
+        Press UP to start. Avoid collision with other vehicles by accelerating
+        or decelerating with the UP and DOWN keys.
+      </div>
+    </div>
+    
+    <div id="results">
+      <div class="content">
+        <h1>You Crashed:(</h1>
+        <p>To Reset the game press R</p>
+    </div>
+    
+    <a id="youtube-main" class="youtube" target="_blank" href="https://github.com/edwaldkeeley">
+      <span>Github</span>
+    </a>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js" integrity="sha512-334uBDwY0iZ2TklV1OtDtBW9vp7jjP7SWRzT7Ehu1fdtPIjTpCwTSFb8HI/YBau9L1/kRBEOALrS229Kry4yFQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="index.js"></script>
+</html>
